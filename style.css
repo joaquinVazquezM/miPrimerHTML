@@ -1,0 +1,23 @@
+/* Selector por etiqueta */
+p{
+    color: red;
+}
+/* Clases */
+.nombre_clase{
+    color: red;
+}
+
+.titulo_1{
+    color: blue;
+}
+
+.titulo_1::first-letter{
+    color: aqua;
+}
+.font_sizeXL{
+    font-size: 60px;
+}
+/* ID */
+#nombre_id{
+    color: red;
+}
