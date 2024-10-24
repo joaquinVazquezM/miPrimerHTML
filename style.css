@@ -1,4 +1,13 @@
 /* Selector por etiqueta */
+/* modificar el tamaño de fuente de la etiqueta <html> para 
+utilizar las medidas Rem de la misma forma que los pixeles, así:
+1rem = 10px
+1.6rem = 16px
+2rem = 20px
+ */
+html{
+    font-size: 62.5%;
+}
 p{
     color: red;
 }
@@ -15,7 +24,7 @@ p{
     color: aqua;
 }
 .font_sizeXL{
-    font-size: 60px;
+    font-size: 3.2rem;
 }
 /* ID */
 #nombre_id{
