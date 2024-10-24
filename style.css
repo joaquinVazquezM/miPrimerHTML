@@ -21,3 +21,10 @@ p{
 #nombre_id{
     color: red;
 }
+.descripcion_sitio{
+    color: blue;
+}
+
+.descripcion_sitio:hover{
+    color: green;
+}
