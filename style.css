@@ -8,32 +8,12 @@ utilizar las medidas Rem de la misma forma que los pixeles, así:
 html{
     font-size: 62.5%;
 }
-p{
-    color: red;
+.container{
+    display: flex;
+    flex-direction: column;
 }
-/* Clases */
-.nombre_clase{
-    color: red;
-}
-
-.titulo_1{
-    color: blue;
-}
-
-.titulo_1::first-letter{
-    color: aqua;
-}
-.font_sizeXL{
-    font-size: 3.2rem;
-}
-/* ID */
-#nombre_id{
-    color: red;
-}
-.descripcion_sitio{
-    color: blue;
-}
-
-.descripcion_sitio:hover{
-    color: green;
+.container section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
