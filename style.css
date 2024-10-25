@@ -44,3 +44,22 @@ p{
     font-size: 2rem;
     text-align: center;
 }
+img{
+    border: solid 10px var(--secundary-color);
+    box-shadow: 8px 9px 8px -2px rgba(0,0,0,0.52);
+    -webkit-box-shadow: 8px 9px 8px -2px rgba(0,0,0,0.52);
+    -moz-box-shadow: 8px 9px 8px -2px rgba(0,0,0,0.52);
+}
+video{
+    border: dashed 2px var(--secundary-color);
+    box-shadow: 8px 9px 8px -2px rgba(0,0,0,0.52);
+    -webkit-box-shadow: 8px 9px 8px -2px rgba(0,0,0,0.52);
+    -moz-box-shadow: 8px 9px 8px -2px rgba(0,0,0,0.52);
+    margin: 5px;
+}
+.videos-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Permitir que los videos salten a la siguiente línea si no hay espacio */
+    justify-content: space-between; /* Distribuir los videos con espacio entre ellos */
+}
