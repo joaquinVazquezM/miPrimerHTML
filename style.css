@@ -1,6 +1,13 @@
 :root{
     --title-font: 'Bebas Neue', cursiva;
     --text-font: 'PT Sans', Sans-serif;
+    --primary-color: #DAF7A6;
+    --secundary-color: #FFC300;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 /* Selector por etiqueta */
 /* modificar el tamaño de fuente de la etiqueta <html> para 
@@ -15,6 +22,9 @@ html{
 .container{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
 }
 .container section{
     display: flex;
